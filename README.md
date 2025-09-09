@@ -1,4 +1,3 @@
-````markdown
 # A self-induced stochastic resonance problem: A physics-informed neural network approach
 
 Minimal **noise-augmented state predictor (NASP)** baselines for **one-step prediction** in the stochastic FitzHugh–Nagumo (FHN) model.

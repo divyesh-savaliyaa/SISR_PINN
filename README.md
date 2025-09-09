@@ -14,6 +14,7 @@ All scripts report **NRMSE** and produce **True vs NASP-predicted** plots.
 
 ## Repo layout
 
+```text
 .
 ├── Data/
 │   ├── train_data.csv
@@ -23,6 +24,7 @@ All scripts report **NRMSE** and produce **True vs NASP-predicted** plots.
 ├── NASP_Physics2.py
 ├── NASP_hybrid.py
 └── README.md
+
 
 pip install numpy pandas torch matplotlib
 

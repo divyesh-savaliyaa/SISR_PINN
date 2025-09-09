@@ -262,11 +262,12 @@ def predict_and_plot(model,
 if __name__ == "__main__":
     t0 = time.perf_counter()
 
-    train_csv = "../data/train_data.csv"
-    full_csv  = "../data/test_data.csv"
+    train_csv = "Data/train_data.csv"
+    full_csv  = "Data/test_data.csv"
     dt        = 0.1
 
     model = train(train_csv)
 
     
+
     predict_and_plot(model, full_csv, train_csv)

@@ -430,8 +430,9 @@ plt.show()
 
 
 if __name__=='__main__':
-    train_csv = '../data/train_data.csv'  
-    full_csv  = '../data/test_data.csv'   
+    train_csv = 'Data/train_data.csv'  
+    full_csv  = 'Data/test_data.csv'   
 
     model = train(train_csv)
+
     predict_and_plot_regions(model, train_csv, full_csv)

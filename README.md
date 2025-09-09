@@ -1,2 +1,1 @@
-# A Self-Induced Stochastic Resonance Problem:
-A Physics-Informed Neural Network Approach
+# A self-induced stochastic resonance problem: A physics-informed neural network approach
